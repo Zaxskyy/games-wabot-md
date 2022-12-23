@@ -155,8 +155,9 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => './src/avatar_contact.png')
     conn.sendHydrated(m.chat, text.trim(), author, pp, 'https://chat.whatsapp.com/CbomyWWNOEDFwYrhPeezU2', 'Zaxskyy Group', null, null, [
       ['Sewa Bot', '/donasi'],
-      ['Speed', '/ping'],
-      ['Owner', '/owner']
+      ['Rules', '/rules'],
+      ['Owner', '/owner'],
+      ['Speed', '/speed']
     ], m)
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
