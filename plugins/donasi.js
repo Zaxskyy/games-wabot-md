@@ -4,7 +4,7 @@ let handler =  m => m.reply(`
 ╰────
 
 ╭─「 Donasi • Non Pulsa 」
-│ • https://saweria.co/najwanzaky
+│ • https://saweria.co/Najwanzaky
 │ • Gopay [085773744917]
 ╰────
 
